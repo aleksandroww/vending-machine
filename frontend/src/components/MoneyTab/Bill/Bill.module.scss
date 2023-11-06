@@ -1,0 +1,15 @@
+.button {
+    background: transparent;
+    border: none;
+
+    .image {
+        width: 5rem;
+        margin: auto;
+        cursor: pointer;
+
+        &:hover {
+            transform: rotateX(20deg);
+        }
+
+    }
+}

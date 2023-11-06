@@ -1,0 +1,72 @@
+.button {
+    padding: 0;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 2.5rem;
+    cursor: pointer;
+
+    .shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: hsl(0deg 0% 0% / 0.25);
+        transform: translateY(0.125rem);
+        transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+    }
+
+    .edge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: linear-gradient(to left,
+                #52001b 0%,
+                #a30036 8%,
+                #a30036 92%,
+                #52001b 100%);
+    }
+
+    .text {
+        display: block;
+        padding: 0.375rem;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        color: white;
+        background: hsl(345deg 100% 47%);
+        transform: translateY(-4px);
+        transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+    }
+
+    &.hidden {
+        visibility: hidden;
+    }
+
+    &:hover {
+        filter: brightness(110%);
+    }
+
+    &:active .front {
+        transform: translateY(-0.125rem);
+        transition: transform 35ms;
+    }
+
+    &:hover .shadow {
+        transform: translateY(0.25rem);
+        transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+    }
+
+    &:active .shadow {
+        transform: translateY(0.063rem);
+        transition: transform 35ms;
+    }
+
+    &:focus:not(:focus-visible) {
+        outline: none;
+    }
+}

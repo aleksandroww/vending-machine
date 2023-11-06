@@ -1,0 +1,10 @@
+.buttons-container {
+    display: flex;
+}
+
+.nums-container {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.625rem;
+}

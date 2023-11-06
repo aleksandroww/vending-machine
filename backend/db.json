@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": 101,
+      "src": "/images/coke.png",
+      "title": "Coca-Cola",
+      "price": 1.99
+    },
+    {
+      "id": 102,
+      "src": "images/coke_zero.png",
+      "title": "Coca-Cola-Zero",
+      "price": 2.1
+    },
+    {
+      "id": 103,
+      "src": "images/fanta.png",
+      "title": "Fanta",
+      "price": 2.99
+    },
+    {
+      "id": 104,
+      "src": "images/7up.png",
+      "title": "7-up",
+      "price": 1.49
+    },
+    {
+      "id": 105,
+      "src": "images/mountain_dew.png",
+      "title": "Dew",
+      "price": 1.39
+    },
+    {
+      "id": 106,
+      "src": "images/pepsi.png",
+      "title": "Pepsi",
+      "price": 1.19
+    },
+    {
+      "id": 107,
+      "src": "images/sprite.png",
+      "title": "Sprite",
+      "price": 1.9
+    },
+    {
+      "id": 108,
+      "src": "images/monster.png",
+      "title": "Monster",
+      "price": 4.99
+    },
+    {
+      "id": 109,
+      "src": "images/mirinda.png",
+      "title": "Mirinda",
+      "price": 1.29
+    },
+    {
+      "id": 110,
+      "src": "/images/pngwing.com.png",
+      "title": "Snickers Bars",
+      "price": 2.29
+    },
+    {
+      "id": 111,
+      "src": "/images/m&ms.png",
+      "title": "M&Ms",
+      "price": 3.29
+    },
+    {
+      "id": 112,
+      "src": "/images/doritos.png",
+      "title": "Doritos",
+      "price": 2.19
+    },
+    {
+      "id": 113,
+      "src": "/images/oreo.png",
+      "title": "Oreo Cookies",
+      "price": 2.49
+    },
+    {
+      "id": 114,
+      "src": "/images/kitkat.png",
+      "title": "KitKat",
+      "price": 2.79
+    },
+    {
+      "id": 115,
+      "src": "/images/twix.png",
+      "title": "Twix",
+      "price": 3.99
+    }
+  ]
+}

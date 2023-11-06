@@ -1,0 +1,74 @@
+.screen {
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    max-width: 20rem;
+    height: 12.5rem;
+    border-radius: 4px;
+    background: #282727;
+    font-size: 1.375rem;
+    text-align: center;
+    color: white;
+
+    p {
+        font-family: consolas;
+    }
+
+    .start-screen {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        * {
+            margin: 0.5rem 0;
+        }
+    }
+
+    .balance {
+        font-size: 1.875rem;
+        white-space: nowrap;
+    }
+
+    .screen-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        font-size: 1.25rem;
+        letter-spacing: 0.063rem;
+        text-align: left;
+
+        .balance {
+            font-size: 1.375rem;
+            text-decoration: underline;
+        }
+
+        .item-code {
+            font-size: 1.25rem;
+        }
+
+        .succ-more {
+            font-size: 1rem;
+        }
+    }
+
+    .blink {
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.2;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        animation: blink 1.5s linear infinite both;
+    }
+}
